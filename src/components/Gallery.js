@@ -11,15 +11,7 @@ class Gallery extends Component {
         super(props);
         this.state = {
             fullPortfolio: false,
-            isMobile: window.innerWidth <= 500
         }
-        this.handleCLick = this.handleCLick.bind(this);
-    }
-
-    handleCLick() {
-        this.setState({
-            fullPortfolio: !this.state.fullPortfolio
-        });
     }
 
     renderGallery() {
@@ -53,14 +45,17 @@ class Gallery extends Component {
             );
         });
 
-        let isMobile = window.innerWidth <= 500;
 
         return (
             <section id="two" className="portfolio-home">
                 <div className="product-grid">
-                    {isMobile && <Slider>{gallery}</Slider>}
+                    <div className="slider-mob">
+                        <Slider>{gallery}</Slider>
+                    </div>
 
-                    {!isMobile && gallery }
+                    <div className="slider-desk">
+                        {gallery}
+                    </div>
                 </div>
             </section>
         );

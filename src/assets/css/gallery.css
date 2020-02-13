@@ -1,5 +1,13 @@
 /* SLICK */
 
+.slider-mob{
+    display:block;
+}
+
+.slider-desk{
+    display: none;
+}
+
 .slick-arrow{
     z-index: 2;    
     width: auto;
@@ -55,7 +63,16 @@
 }
 
 @media(min-width: 900px){
-    .product-grid {
+
+    .slider-mob{
+        display:none;
+    }
+    
+    .slider-desk{
+        display: block;
+    }
+
+    .product-grid .slider-desk {
         display: flex;
         flex-wrap: wrap;
     }
