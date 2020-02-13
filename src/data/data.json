@@ -31,6 +31,54 @@
                 "Preco": "R$399,99",
                 "Parcela": "10 x R$39,99",
                 "Imagem": "produto4.jpg"
+            },
+            {
+                "Name": "Sapato Feminino",
+                "Preco": "R$99,99",
+                "Parcela": "10 x R$9,99",
+                "Imagem": "produto1.jpg"
+            },
+            {
+                "Name": "Salto Alto",
+                "Preco": "R$199,99",
+                "Parcela": "10 x R$19,99",
+                "Imagem": "produto2.jpg"
+            },
+            {
+                "Name": "Lorem ipsum",
+                "Preco": "R$299,99",
+                "Parcela": "10 x R$29,99",
+                "Imagem": "produto3.jpg"
+            },
+            {
+                "Name": "Sapato Feminino",
+                "Preco": "R$399,99",
+                "Parcela": "10 x R$39,99",
+                "Imagem": "produto4.jpg"
+            },
+            {
+                "Name": "Sapato Feminino",
+                "Preco": "R$99,99",
+                "Parcela": "10 x R$9,99",
+                "Imagem": "produto1.jpg"
+            },
+            {
+                "Name": "Salto Alto",
+                "Preco": "R$199,99",
+                "Parcela": "10 x R$19,99",
+                "Imagem": "produto2.jpg"
+            },
+            {
+                "Name": "Lorem ipsum",
+                "Preco": "R$299,99",
+                "Parcela": "10 x R$29,99",
+                "Imagem": "produto3.jpg"
+            },
+            {
+                "Name": "Sapato Feminino",
+                "Preco": "R$399,99",
+                "Parcela": "10 x R$39,99",
+                "Imagem": "produto4.jpg"
             }
         ]
     }

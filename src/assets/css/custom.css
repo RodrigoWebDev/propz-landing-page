@@ -1,3 +1,28 @@
 #main > section:first-child p {
     text-align: center;
 }
+
+@media(min-width: 900px){
+    #main {
+        width: auto;
+        max-width: 80%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #one p {
+        max-width: 620px;
+        margin: 0 auto;
+        margin-top: 33px;
+        margin-bottom: 70px;
+    }
+
+    #footer {
+        width: 40%;
+        padding: 25px 80px;
+    }
+
+    #footer ul{
+        text-align: center;
+    }
+}

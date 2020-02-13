@@ -43,3 +43,28 @@
 .product-portion, .product-price {
     color: #ff7c00;
 }
+
+.product a {
+    display: block;
+    border: none;
+}
+
+.product-portion {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width: 900px){
+    .product-grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .product {
+        width: 25%;
+        flex-basis: 25%;
+        padding: 0 25px;
+        margin-bottom: 100px;
+    }
+    
+}

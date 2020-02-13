@@ -10,7 +10,8 @@ class Gallery extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            fullPortfolio: false
+            fullPortfolio: false,
+            isMobile: window.innerWidth <= 500
         }
         this.handleCLick = this.handleCLick.bind(this);
     }
@@ -41,7 +42,7 @@ class Gallery extends Component {
                     <div className="product-info">
                         <div className="product-portion">
                             {obj.Parcela}
-                            <img src={flags} alt="flags"/>
+                            <img src={flags} alt="flags" />
                         </div>
                         <div> Ou </div>
                         <div className="product-price">
@@ -52,16 +53,19 @@ class Gallery extends Component {
             );
         });
 
+        let isMobile = window.innerWidth <= 500;
+
         return (
             <section id="two" className="portfolio-home">
-            <div className="product-grid">
-                <Slider>
-                    {gallery}
-                </Slider>
-            </div>
+                <div className="product-grid">
+                    {isMobile && <Slider>{gallery}</Slider>}
+
+                    {!isMobile && gallery }
+                </div>
             </section>
         );
     }
+
     render() {
         return (
             <div>
