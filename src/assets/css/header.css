@@ -1,0 +1,15 @@
+.header h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #ff7c00;
+    margin-bottom: 12px;
+}
+
+.header img {
+    width: 110px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,45 @@
+/* SLICK */
+
+.slick-arrow{
+    z-index: 2;    
+    width: auto;
+    height: auto;
+}
+
+.slick-next:before{
+    content: url(../images/arrow.png);
+}
+
+.slick-prev:before{
+    content: url(../images/arrow-left.png);
+}
+
+.slick-next{
+    right: -20px;
+}
+
+.slick-prev {
+    left: -20px;
+}
+
+/* Product */
+
+.product-name {
+    font-size: 20px;
+    border-bottom: 1px solid #00000020;
+    padding-bottom: 8px;
+}
+
+.product-portion img {
+    width: 80px;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-portion, .product-price {
+    color: #ff7c00;
+}
